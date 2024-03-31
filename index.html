@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Loan Calculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <img
+      class="product"
+      src="https://static.matterport.com/mp_cms/media/filer_public/d9/4a/d94a0f42-1381-49f5-995b-299780f24fec/8f90792286faf14bfdd965915fd2fd909a688eae.jpeg"
+    />
+    <div class="details">
+      <table class="table">
+        <tr>
+          <td>ON-Road Price:</td>
+          <th class="pr" colspan="2">20000000</th>
+        </tr>
+        <tr>
+          <td>
+            <hr />
+            HDFC
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>Loan Tenure:</td>
+          <td>
+            Years:
+            <input
+              type="number"
+              placeholder="Loan Years"
+              id="yrs"
+              class="int"
+              max="100"
+              min="0"
+            />
+          </td>
+          <td>
+            Months:
+            <input
+              type="number"
+              placeholder="Loan Months"
+              class="int"
+              max="12"
+              min="0"
+              id="mnt"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Interest(in %):</td>
+          <td>
+            <input
+              type="number"
+              placeholder="Interest(in%)"
+              class="intig"
+              max="100"
+              min="0"
+            />
+          </td>
+        </tr>
+        <!--<tr>
+          <th colspan="3">
+            <button class="btn1" id="btn1">CLEAR</button>
+          </th>
+        </tr>
+        <tr>
+          <th colspan="3">
+            <button class="btn" id="btn3">Calculate Your EMI</button>
+          </th>
+        </tr>-->
+        <tr>
+          <td>
+            <hr />
+            SBI
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>Loan Tenure:</td>
+          <td>
+            Years:
+            <input
+              type="number"
+              placeholder="Loan Years"
+              id="yrsa"
+              class="int"
+              max="100"
+              min="0"
+            />
+          </td>
+          <td>
+            Months:
+            <input
+              type="number"
+              placeholder="Loan Months"
+              class="int"
+              max="12"
+              min="0"
+              id="mnta"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Interest(in %):</td>
+          <td>
+            <input
+              type="number"
+              placeholder="interest(in%)"
+              id="intiga"
+              min="0"
+              max="100"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th colspan="3">
+            <button class="btn1" id="btn1">CLEAR</button>
+          </th>
+        </tr>
+        <tr>
+          <th colspan="3">
+            <button class="btn" id="btn3" onclick="myFun()">
+              Calculate Your EMI
+            </button>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
